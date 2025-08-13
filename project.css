@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.link{
+     text-decoration: none; 
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+}
+.link a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link a:hover{
+    color: blue;
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    text-align: 20px;
+    margin: 0;
+    gap: 800px;
+}
+.palent{
+    background-color: rgb(232, 252, 255);
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+}
+.palent img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.palent h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.palent p{
+    font-size: x-large;
+}
+.palent2{
+    text-align: center;
+    margin: 50px;
+    margin: 0;
+}
+h3{
+    font-size: 30px;
+    padding: 20px;
+}
+.palent2 p{
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+.palent3{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+}
+.photo{
+     width: 100%; 
+}
+.photo img{
+   width: 290px;
+   height: 290px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+   font-size: 20px; 
+   padding: 20px;
+   margin: 0; 
+   border-radius: 8px;
+   width: 250px;
+}
+h5{
+    font-size:x-large;
+}
+h4{
+    font-size: large;
+}
+ .palent5{
+       background-color: midnightblue;
+    display: flex;
+    color:black;
+    gap: 20px;  
+}
+ .parent5 h2{
+    background-color: midnightblue; 
+}
+.htag a{
+    display:column;
+    gap: 20px;
+     text-decoration: none;  
+     color: gray;  
+     font-size: x-large;
+         background-color: midnightblue;
+} 
+.ftag a{
+display:column;
+    gap: 20px;
+     text-decoration: none; 
+     color: gray;
+     font-size: x-large;
+         background-color: midnightblue;
+}
+.mtag a{
+    display:column;
+    gap: 20px;
+     text-decoration: none;
+     color: gray;
+   font-size: x-large;
+       background-color: midnightblue;
+}
+
+
