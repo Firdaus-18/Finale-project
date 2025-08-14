@@ -1,127 +1,234 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact</title>
-    </head>
-<style>
-    *{
-        padding: 0%;
-        margin: 0%;
-        background-color: white;
-    }
 
-    .palent1{
+<head>
+  <title>Contact</title>
+</head>
+<style>
+  * {
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+  .palent1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 30px;
-    }
+  }
 
-    .palent1 h1 {
-      background-color: rgb(243, 240, 240);
-        font-weight: 800;
-        font-size: 45px;
-    }
+  .palent1 h1 {
+    background-color: rgb(243, 240, 240);
+    font-weight: 800;
+    font-size: 45px;
+  }
 
-    .palent1 p {
-        color: grey;
-        font-weight: 200;
-        background-color: azure;
+  .palent1 p {
+    color: grey;
+    font-weight: 200;
+    background-color: rgb(243, 240, 240);
+  }
 
-    }
-    
+  .card-container {
+    gap: 30px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 60px;
+
+  }
+
+  .palent2 h2 {
+    color: rgb(42, 88, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .cards p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .palent1 {
+    background-color: rgb(244, 239, 239);
+  }
+
+  .palent4 {
+    background-color: aqua;
+    display: flex;
+
+  }
+
+  .palent2 h1 {
+    color: black;
+    gap: 20px;
+
+  }
+
+  .palent2 {
+    padding-top: 50px;
+    margin: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding-right: 20px;
+  }
+
+  .login {
+    padding-top: 50px;
+    margin: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding-right: 20px;
+  }
+
+  form {
+    color: gray;
+    font-size: 20px;
+  }
+
+  .text {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .login {
+    padding-left: 20px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+     border: .5rem;
+    border-radius: .75rem;
+    box-shadow:0 0 3px 4px rgb(220, 216, 216);
+    padding:20px;
+
+  }
+
+  .palent6 {
+    display: flex;
+    font-size: space-between;
+  }
+
+  .msg {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  #subject {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(42, 88, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .cards {
+    border: .5rem;
+    border-radius: .75rem;
+    box-shadow:0 0 3px 4px rgb(220, 216, 216);
+   padding:15px; 
+    width: 5000;
+     padding-left: 20px;
+  }
+  .cards h2{
+      padding: 2px;
+  }
+   .palent2 h1{
+    padding-bottom: 40px;
+   }
 
 
-    .card-container {
-       gap: 30px;
-       flex-direction: column;
-       display: flex;
-       padding-left: 60px;
-      
-    }
-    
-    
 
-    .information h2 {
-        padding: 48px;
-        font-weight: bold;
-        font-size: 36px;
-        font-family: Arial, Helvetica, sans-serif;
-      
-       
-    }
-
-    .palent2 h2 {
-        color: rgb(42, 88, 238);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
-    .cards p {
-        color: grey;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .palent1 {
-        background-color: rgb(244, 239, 239);
-    }
-
-  
-    
 </style>
+
 <body>
-    <div class="palent1">
-        <h1>Get in Touch</h1><br><br>
-        <p>Have questions about our products or need technical support? We're here<br><br>
-             to help! Reach out to us through any of the methods below, and our team<br><br>
-            will get back to you promptly.</p>
-    </div>
-<br><br>
-
- <div class="information">
-            <h2>Contact Information</h2><br><br>
-        </div>
-
+  <div class="palent1">
+    <h1>Get in Touch</h1><br><br>
+    <p>Have questions about our products or need technical support? We're here<br><br>
+      to help! Reach out to us through any of the methods below, and our team<br><br>
+      will get back to you promptly.</p>
+  </div>
+  <br><br>
+  <div class="palent6">
     <div class="palent2">
-     
-            <div class="card-container">
-               <div class="cards">
-        <h2>Address</h2><br>
-        <p>
+      <h1>Contact Information</h1>
+        <div class="card-container">
+        <div class="cards">
+          <h2>Address</h2><br>
+          <p>
             123 Tech Street<br>
             Digital City, DC 12345<br>
             United States
-        </p>
-     </div>
-
-      <div class="cards">
-        <h2>Phone</h2><br>
-        <p>
-          Main: (555) 123-4567<br>
-          Support: (555) 123-4568<br>
-          Sales: (555) 123-4569
-        </p>
-      </div>
-
-      <div class="cards">
-        <h2>Email</h2><br>
-        <p>
-          General: info@techstore.com<br>
-          Support: support@techstore.com<br>
-          Sales: sales@techstore.com
-        </p>
-      </div>
-
-      <div class="cards">
-        <h2>Business Hours</h2><br>
-        <p>
-          Monday - Friday: 9:00 AM - 6:00 PM<br>
-          Saturday: 10:00 AM - 4:00 PM<br>
-          Sunday: Closed
-        </p>
-    </div>
-      </div>
+          </p>
         </div>
+        <div class="cards">
+          <h2>Phone</h2><br>
+          <p>
+            Main: (555) 123-4567<br>
+            Support: (555) 123-4568<br>
+            Sales: (555) 123-4569
+          </p>
+        </div>
+        <div class="cards">
+          <h2>Email</h2><br>
+          <p>
+            General: info@techstore.com<br>
+            Support: support@techstore.com<br>
+            Sales: sales@techstore.com
+          </p>
+        </div>
+        <div class="cards">
+          <h2>Business Hours</h2><br>
+          <p>
+            Monday - Friday: 9:00 AM - 6:00 PM<br>
+            Saturday: 10:00 AM - 4:00 PM<br>
+            Sunday: Closed
+          </p>
+        </div>
+      </div>
     </div>
-
-
+    <div class="login">
+      <h1>Send us a Message</h1>
+      <form>
+        full name<br>
+        <input type="text" name="full name" class="text"><br><br>
+      </form>
+      <form>
+        Email Address<br>
+        <input type="text" name=" Email Address" class="text"><br><br>
+      </form>
+      <form>
+        Phone Number<br>
+        <input type="text" name="Phone Number" class="text"><br>
+        <br>
+        <label for="country">subject:</label>
+        <br>
+        <form>
+          <select name="text" id="subject" onchange="updateSubject">
+            <option value="">Select a Subject</option>
+            <option value="">General Inquiry</option>
+            <option value="">Rechnical Support</option>
+            <option value="">Sales Question</option>
+            <option value="">Returns & Exchange</option>
+            <option value="">feed back</option>
+          </select>
+          <form>
+            <br> <br>
+            message<br>
+            <input type="text" name="message" class="msg"><br><br>
+          </form>
+          <button>Send Message</button>
+    </div>
+  </div>
 </body>
+
 </html>

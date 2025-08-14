@@ -89,38 +89,12 @@ h5{
 h4{
     font-size: large;
 }
- .palent5{
-       background-color: midnightblue;
+footer{
     display: flex;
-    color:black;
-    gap: 20px;  
+    justify-content: space-between;
+    background-color: blue;
 }
- .parent5 h2{
-    background-color: midnightblue; 
-}
-.htag a{
-    display:column;
-    gap: 20px;
-     text-decoration: none;  
-     color: gray;  
-     font-size: x-large;
-         background-color: midnightblue;
-} 
-.ftag a{
-display:column;
-    gap: 20px;
-     text-decoration: none; 
-     color: gray;
-     font-size: x-large;
-         background-color: midnightblue;
-}
-.mtag a{
-    display:column;
-    gap: 20px;
-     text-decoration: none;
-     color: gray;
-   font-size: x-large;
-       background-color: midnightblue;
-}
+
+
 
 
