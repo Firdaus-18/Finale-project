@@ -8,7 +8,7 @@
     gap: 40px;
     margin: 0;
     padding: 0;
-    /* list-style: none; */
+  
 }
 .link a{
     text-decoration: none;
@@ -19,32 +19,70 @@
 .link a:hover{
     color: blue;
 }
-.navbar{
-    display: flex;
-    padding: 20px;
-    text-align: 20px;
-    margin: 0;
-    gap: 800px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
 }
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 0px; 
+  font-size: 5px;
+}
+
+.logo {
+    padding:0;
+    margin: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 20px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: gray;
+}
+
+
 .palent{
-    background-color: rgb(232, 252, 255);
+    background-color: rgb(243, 247, 250);
     display: flex;
     gap: 20px;
     width: 100%;
     height: 80%;
     margin: 0;
+    padding: 20px;
 }
 .palent img{
     width: 350px;
     height: 350px;
     border-radius: 20px;
+  
 }
 .palent h2{
-    font-size: 40px;
+    font-size: 50px;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    color: rgb(48, 48, 48);
+    
+
 }
 .palent p{
-    font-size: x-large;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 .palent2{
     text-align: center;
@@ -71,9 +109,9 @@ h3{
       border: .5rem;
     border-radius: .75rem;
     box-shadow:0 0 3px 2px rgb(220, 216, 216);
-   padding:15px; 
+   padding:20px; 
     width: 500px;
-    /* padding-left: 20px; */
+   
     
 }
 .photo img{
@@ -142,3 +180,18 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+.head {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+}
+
+ .logo h1 {
+     margin: 0;      
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;  
+    font-weight: 750;
+    color: rgb(0, 72, 255);
+}
+ 
+
