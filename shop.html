@@ -11,29 +11,75 @@
         margin: 0;
     }
     .link{
-     text-decoration: none;
+     text-decoration: none; 
     display: flex;
     gap: 40px;
     margin: 0;
     padding: 0;
-   
+  
 }
 .link a{
     text-decoration: none;
     color: gray;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
 }
 .link a:hover{
     color: blue;
 }
-.navbar{
-    display: flex;
-    padding: 20px;
-    text-align: 20px;
-    margin: 0;
-    gap: 800px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
 }
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 0px; 
+  font-size: 5px;
+}
+
+.logo {
+    padding:0;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+}
+
+ .logo h1 {
+     margin: 0;      
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;  
+    font-weight: 750;
+    color: rgb(0, 72, 255);
+}
+ 
+
+
+.menu {
+  display: flex;
+  gap: 20px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: gray;
+}
+
+
 .ptag p{
     color: gray;
     align-items: center;
@@ -135,18 +181,30 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+
+
+
+
+
+
 </style>
 <body>
     <div class="navbar">
-    <div class="head"><h1>TechStore</h1></div>
+      <div class="head">
+        <div class="icon">
+          <img src="b2.jpg.svg" />
+        </div>
+        <div class="logo">
+          <h1>TechStore</h1>
+        </div>
+      </div>
 
-    <div class="link">
-    <a href="project.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
- 
-    </div>
+      <div class="link">
+        <a href="project.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
     <div class="palent">
         <div class="head">
